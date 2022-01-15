@@ -15,8 +15,6 @@ update_index = True
 assets_to_download = 'all'
 # We will only download all information contained in item_list_2 if set to True. 
 download_list_2 = False    
-# Confirm back testing. We will not calculate intrinsic value
-backtesting = False
 # Folder where our results will be saved
 folder_path = 'current_data/'
 
