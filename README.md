@@ -6,14 +6,22 @@ download_support.py file is the module we will use as support. Make sure it is s
 To start downloading, run run_file.py file. Before running, make sure the following folders have been created on your venv. This is where data will be saved.  
 
 current_data/SPX/data_downloaded/ 
+
   excluded_assets/ 
-    csv/ 
-    pkl/ 
-    xlsx/ 
-  final_data 
-    csv/ 
-    pkl/ 
-    xlsx/ 
+
+csv/ 
+
+pkl/ 
+
+xlsx/ 
+
+final_data 
+
+csv/ 
+
+pkl/ 
+
+xlsx/ 
 
 I like to save data on different formats in case I need to share it, analyze it, open file using excel, etc 
 
