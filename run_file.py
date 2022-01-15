@@ -2,7 +2,6 @@ import pandas as pd
 import eikon as ek
 import numpy as np
 import download_support
-import data_analysis_support
 from tqdm.notebook import tqdm
 
 # Function parameters
