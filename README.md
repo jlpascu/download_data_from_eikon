@@ -34,5 +34,13 @@ update_index : set it to true in case you’d like to update the equity index co
 
 item_list_1: the code will download the last 11 years of the financial data included in this list for every asset that belongs to the equity index chosen.
 
-item_list_2: the code will download the last trading date data of the financial data included in this list for every asset 
+item_list_2: the code will download the last trading date data of the financial data included in this list for every asset
+
+When running a back testing for your algorithm, you will have to download the financial data on an specific date. In this case run download_data_on_specific_date.py file.  
+
+Change start_date to the desired starting date. Example: start_date = '20160101' 
+
+Make sure you have updated your main folder to folder_path = 'backtesting/' or any other name you’d like to use 
+
+ 
  
